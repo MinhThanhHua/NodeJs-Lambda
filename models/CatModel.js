@@ -1,6 +1,6 @@
 let Joi = require('joi'); // Thư viện validate
 // let dynamo = require('dynamodb'); // Cơ sở dữ liệu nosql
-// let dynamodb = require('serverless-dynamodb-client'); // Cơ sở dữ liệu local
+let dynamodb = require('serverless-dynamodb-client'); // Cơ sở dữ liệu local
 let uuid = require("uuid"); 
 
 // Server
